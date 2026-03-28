@@ -465,6 +465,15 @@ footer a {
         word-spacing: normal;
         text-align: center;
     }
+    
+    .rsvp a {
+        display: block;
+        text-align: center;
+    }
+    
+    .hotel p, .gifts p {
+        text-align: center;
+    }
 
     
     #em {

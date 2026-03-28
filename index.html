@@ -16,7 +16,7 @@
     </head>
     <body>
         <header class="nav-header">
-             <h1 class="logo"><a href="index.html">AT2026</a></h1>
+             <h1 class="logo"><a href="index.html">AnnaTristan2026</a></h1>
              <input type="checkbox" class="nav-toggle" id="nav-toggle">
              <nav>
                 <ul class="nav list-group">
@@ -55,14 +55,20 @@
             <section class="aboutus">
                 <header class="aboutus__img">
                         <a id="ourstory"></a>
-                    <img src="images/photo2.jpg" alt="photo2" class="aboutus__img">
+                    <img src="images/photo3.jpg" alt="photo3" class="aboutus__img">
                     
                 </header>
                 <div class="aboutus__intro">
                     <h1 class="section-title">Our Story</h1>
-                    <p>We met in Seattle in May 2024 and developed our relationship through shared interests like outdoor activities and cooking. Some of our biggest trips include a four day backpacking trip to Blue Glacier in the Olympic National Park, visiting Anna's sister Dana in Houston, and exploring Newport and meeting Tristan's aunt Barb. Although we've only been married for a few months we've adjusted well to it and are looking forward to a life together.</p>
+                    <p>We met in Seattle in May 2024 and developed our relationship through shared interests like outdoor activities and cooking.</p>
+                    <p>Some of our biggest trips include a four day backpacking trip to Blue Glacier in the Olympic National Park, visiting Anna's sister Dana in Houston, and exploring Newport and meeting Tristan's aunt Barb. Although we've only been married for a few months we've adjusted well to it and are looking forward to a life of happiness and fun together.</p>
                     <p>We can't wait to celebrate our marriage with all of you!</p>
                 </div>
+            </section>
+
+            <!-- Let's Celebrate -->
+            <section style="text-align: center; padding: 2em 1em;">
+                <h1 class="section-title">Let's Celebrate</h1>
             </section>
 
             <!-- Where When how-->
@@ -218,7 +224,7 @@
                             <li><a href="#">RSVP</a></li>
                 </ul>
                 -->
-                <h1 class="logo"><a href="index.html">AT2026</a></h1>
+                <h1 class="logo"><a href="index.html">AnnaTristan2026</a></h1>
                 <p style="margin-top: 2em; font-size: 0.9em; opacity: 0.7;">When backend engineers design a website</p>
     
 
@@ -226,6 +232,15 @@
 
 
         </main>
+        <script>
+            document.addEventListener('click', function(e) {
+                const navToggle = document.getElementById('nav-toggle');
+                const navHeader = document.querySelector('.nav-header');
+                if (navToggle.checked && !navHeader.contains(e.target)) {
+                    navToggle.checked = false;
+                }
+            });
+        </script>
     </body>
  
 </html>
