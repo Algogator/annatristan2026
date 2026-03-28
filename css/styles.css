@@ -230,7 +230,7 @@ section {
 .farmhouse-img {
     padding-left: 1em;
     padding-right: 1em;
-    max-width: 40%;
+    max-width: 90%;
     display: block;
     margin: auto;
 }
@@ -407,6 +407,7 @@ footer a {
 
     .farmhouse-img {
         margin: auto;
+        max-width: 40%;
     }
 
     .cards {
