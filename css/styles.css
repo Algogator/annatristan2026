@@ -11,7 +11,7 @@ h1, h2, h3, h4 {
 }
 
 :root {
-    --background: rgba(255, 255, 255, .95);
+    --background: rgba(250, 248, 245, .95);
     --ff-serif:  "Work Sans", serif;
 }
 
@@ -20,17 +20,20 @@ html {
     font-family: var(--ff-serif)!important;
     color: var(--black);
     font-size: 1.125rem;
+    scroll-behavior: smooth;
 }
 
 body
 {
     margin: 0;
+    background-color: #FAF8F5;
 }
 
 
 /* Typography */
 h1.section-title1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
+    text-align: center;
 }
 
 h1.section-title {
@@ -211,6 +214,11 @@ section {
     margin: auto;
 }
 
+.aboutus__img {
+    max-width: 90%;
+    display: block;
+}
+
 
 .hotel__info {
     max-width: 100%;
@@ -222,6 +230,9 @@ section {
 .farmhouse-img {
     padding-left: 1em;
     padding-right: 1em;
+    max-width: 40%;
+    display: block;
+    margin: auto;
 }
 
 .where-when-how {
@@ -441,12 +452,17 @@ footer a {
         border-radius: 1em;
         overflow: hidden;
         box-shadow: 0 0 1em rgba(0, 0, 0, 0.075); 
-        margin: 1.5em 1em;
+        margin: 2em 1em;
         justify-content: center;
         max-width: 35em;
-        margin: auto;
+        margin: 2em auto;
         padding-top: 1em;
         padding-bottom: 2em;
+        text-align: center;
+    }
+    
+    .rsvp p {
+        word-spacing: normal;
         text-align: center;
     }
 
